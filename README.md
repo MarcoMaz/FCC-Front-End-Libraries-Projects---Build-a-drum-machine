@@ -1,6 +1,6 @@
 <h1>Drum Machine REACT</h1>
 <h2>Description</h2>
-<p>Free Code Camp project of a responsive drum machine.
+<p>Free Code Camp project of a responsive drum machine built using Html5, Css3, Scss, and React.
 </p>
 <h2>Technologies used</h2>
 <ul>
