@@ -1,0 +1,46 @@
+
+%align {
+  align-items: center;
+  font-size: 4em;  
+  height: 25vh;   
+  justify-content: center;
+}
+%displayFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+$bckCol: #000;
+$thinBorderCol: #00A3B2;
+$displayCol: #fff;
+$btnCol: #00E9FF;
+$btnHover: #FF6A00;
+  
+#drum-machine {
+  background-color: $thinBorderCol;
+  @extend %displayFlex;
+  #display {
+    @extend %align;
+    @extend %displayFlex;
+    background-color: $bckCol;
+    color: $displayCol; 
+    }
+  #drumpads {
+    @extend %displayFlex;
+    .drum-pad {
+      @extend %align;
+      @extend %displayFlex;
+      background-color: $btnCol;
+      border-bottom: 2px solid $thinBorderCol;
+      color: $thinBorderCol;
+      cursor: pointer;
+      margin: 0 auto;
+      width: calc(99vw / 3);
+      &:hover {
+        background-color: $btnHover;
+        color: $btnCol;
+        }
+      }
+    }
+  }
