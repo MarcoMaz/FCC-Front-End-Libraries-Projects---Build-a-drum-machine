@@ -21,8 +21,9 @@ class DrumMachine extends Component {
       <div id="drum-machine">
         <div id="display">{ display }</div>
         <div id="drumpads">
-        { Dataset.map(d => (
+        { Dataset.map((d, i) => (
             <Drumpad
+              key={i}
               letter={d.keyTrigger}
               id={d.id}
               url={d.url}

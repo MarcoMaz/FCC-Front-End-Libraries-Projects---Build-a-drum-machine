@@ -1,45 +1,39 @@
+$black: #000;
+$white: #fff;
+$btn: #00E9FF;
+$btnBorder: #00A3B2;
+$btnHover: #FF6A00;
 
-%align {
+@mixin flexStyle {
   align-items: center;
+  display: flex;
   font-size: 4em;  
   height: 25vh;   
   justify-content: center;
 }
-%displayFlex {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-}
-
-$bckCol: #000;
-$thinBorderCol: #00A3B2;
-$displayCol: #fff;
-$btnCol: #00E9FF;
-$btnHover: #FF6A00;
   
 #drum-machine {
-  background-color: $thinBorderCol;
-  @extend %displayFlex;
+  background-color: $btnBorder;
   #display {
-    @extend %align;
-    @extend %displayFlex;
-    background-color: $bckCol;
-    color: $displayCol; 
-    }
+    @include flexStyle;
+    background-color: $black;
+    color: $white;
+  }
   #drumpads {
-    @extend %displayFlex;
+    display: flex;
+    flex-wrap: wrap;
     .drum-pad {
-      @extend %align;
-      @extend %displayFlex;
-      background-color: $btnCol;
-      border-bottom: 2px solid $thinBorderCol;
-      color: $thinBorderCol;
+      @include flexStyle;
+      background-color: $btn;
+      box-sizing: border-box;
+      border-bottom: 2px solid $btnBorder;
+      color: $btnBorder;
       cursor: pointer;
       margin: 0 auto;
       width: calc(99vw / 3);
       &:hover {
         background-color: $btnHover;
-        color: $btnCol;
+        color: $btn;
         }
       }
     }
