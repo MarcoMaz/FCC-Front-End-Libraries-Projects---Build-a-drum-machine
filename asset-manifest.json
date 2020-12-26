@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/drum-machine-react/static/css/main.622240ca.chunk.css",
-    "main.js": "/drum-machine-react/static/js/main.3d71a746.chunk.js",
-    "main.js.map": "/drum-machine-react/static/js/main.3d71a746.chunk.js.map",
-    "runtime~main.js": "/drum-machine-react/static/js/runtime~main.aca7fcdb.js",
-    "runtime~main.js.map": "/drum-machine-react/static/js/runtime~main.aca7fcdb.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/drum-machine-react/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/drum-machine-react/static/js/2.d6a534e5.chunk.js.map",
-    "index.html": "/drum-machine-react/index.html",
-    "precache-manifest.14fa338242b8452f08879ffc6a2cf0b0.js": "/drum-machine-react/precache-manifest.14fa338242b8452f08879ffc6a2cf0b0.js",
-    "service-worker.js": "/drum-machine-react/service-worker.js",
-    "static/css/main.622240ca.chunk.css.map": "/drum-machine-react/static/css/main.622240ca.chunk.css.map"
+    "main.css": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/css/main.c7861b6e.chunk.css",
+    "main.js": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/js/main.15527bd6.chunk.js",
+    "main.js.map": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/js/main.15527bd6.chunk.js.map",
+    "runtime~main.js": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/js/runtime~main.fbc21b5a.js",
+    "runtime~main.js.map": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/js/runtime~main.fbc21b5a.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/index.html",
+    "precache-manifest.c72532954d0c86f6a69604badc8a18b2.js": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/precache-manifest.c72532954d0c86f6a69604badc8a18b2.js",
+    "service-worker.js": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/service-worker.js",
+    "static/css/main.c7861b6e.chunk.css.map": "/FCC-Front-End-Libraries-Projects---Build-a-drum-machine/static/css/main.c7861b6e.chunk.css.map"
   }
 }
