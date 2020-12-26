@@ -4,16 +4,12 @@
 </p>
 <h2>Technologies used</h2>
 <ul>
-  <li>Html5</li>
-  <li>Css3</li>
-  <li>Scss</li>
   <li>React</li>
+  <li>Scss</li>
 </ul>
-<h2>Where to find the project...</h2>
+<h2>Demo</h2>
 <p>
-Click <a href="https://marcomaz.github.io/drum-machine-react/" target="_blank"> here</a>
-or in the image below <br/><br/><a href="https://marcomaz.github.io/drum-machine-react/" target="_blank">
-<img src="https://www.dropbox.com/s/vifn9xyian235se/28-drum-machine-react.jpg?raw=1">
+<a href="https://marcomaz.github.io/drum-machine-react/" target="_blank">Here</a>
 </a>
 </p>
 
